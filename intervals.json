@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T10:44:02.892537",
+  "generated_at": "2026-06-24T13:06:23.226992",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -707,6 +707,66 @@
           "zone": 4,
           "training_load": 0.953755,
           "decoupling": 37.899433
+        }
+      ]
+    },
+    {
+      "activity_id": "i159963412",
+      "date": "2026-06-24",
+      "type": "VirtualRide",
+      "name": "Afternoon Virtual Ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 369,
+          "avg_power": 100,
+          "max_power": 224,
+          "avg_hr": 101,
+          "max_hr": 117,
+          "zone": 1,
+          "training_load": 2.6213777,
+          "decoupling": -55.39937
+        }
+      ]
+    },
+    {
+      "activity_id": "i159949107",
+      "date": "2026-06-24",
+      "type": "Run",
+      "name": "Lunch Run",
+      "interval_summary": [
+        "1x 7m42s 110bpm",
+        "1x 2m40s 121bpm",
+        "1x 8s 121bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "462s@110bpm83rpm",
+          "duration_secs": 462,
+          "avg_hr": 110,
+          "max_hr": 123,
+          "avg_cadence": 82.95804,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "160s@121bpm81rpm",
+          "duration_secs": 160,
+          "avg_hr": 121,
+          "max_hr": 124,
+          "avg_cadence": 80.9125,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "8s@121bpm79rpm",
+          "duration_secs": 8,
+          "avg_hr": 121,
+          "max_hr": 123,
+          "avg_cadence": 79.0,
+          "zone": 1
         }
       ]
     }
