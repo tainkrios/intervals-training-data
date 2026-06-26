@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T12:30:57.032876",
+  "generated_at": "2026-06-26T15:15:24.857265",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -804,6 +804,26 @@
           "avg_hr": 115,
           "max_hr": 115,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i160503972",
+      "date": "2026-06-26",
+      "type": "VirtualRide",
+      "name": "Tempo - 2x15min/3min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3802,
+          "avg_power": 127,
+          "max_power": 233,
+          "avg_hr": 122,
+          "max_hr": 151,
+          "zone": 1,
+          "training_load": 34.85491,
+          "decoupling": 13.2859125
         }
       ]
     }
