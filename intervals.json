@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T11:29:45.024612",
+  "generated_at": "2026-06-29T14:42:37.481622",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -824,6 +824,53 @@
           "zone": 1,
           "training_load": 34.85491,
           "decoupling": 13.2859125
+        }
+      ]
+    },
+    {
+      "activity_id": "i161222324",
+      "date": "2026-06-29",
+      "type": "VirtualRide",
+      "name": "Long Ride",
+      "interval_summary": [
+        "1x 1h51m 107w",
+        "1x 15m1s 163w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "6710s@107w",
+          "duration_secs": 6710,
+          "avg_power": 107,
+          "max_power": 150,
+          "avg_hr": 107,
+          "max_hr": 119,
+          "zone": 1,
+          "training_load": 35.33738,
+          "decoupling": -2.6551101
+        },
+        {
+          "type": "WORK",
+          "label": "901s@163w",
+          "duration_secs": 901,
+          "avg_power": 163,
+          "max_power": 184,
+          "avg_hr": 131,
+          "max_hr": 144,
+          "zone": 2,
+          "training_load": 10.639408,
+          "decoupling": 5.992668
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4,
+          "avg_power": 171,
+          "max_power": 174,
+          "avg_hr": 144,
+          "max_hr": 145,
+          "zone": 2,
+          "training_load": 0.051984,
+          "decoupling": 2.6501591
         }
       ]
     }
