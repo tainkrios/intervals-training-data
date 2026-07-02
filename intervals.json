@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T23:19:52.385249",
+  "generated_at": "2026-07-02T01:31:25.356951",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -655,58 +655,6 @@
           "zone": 1,
           "training_load": 0.05984073,
           "decoupling": 0.4716981
-        }
-      ]
-    },
-    {
-      "activity_id": "i158028906",
-      "date": "2026-06-17",
-      "type": "Run",
-      "name": "Lunch Run",
-      "interval_summary": [
-        "1x 31m10s 137bpm",
-        "1x 27m18s 162bpm",
-        "1x 31s 168bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1870s@240w85rpm",
-          "duration_secs": 1870,
-          "avg_power": 240,
-          "max_power": 282,
-          "avg_hr": 137,
-          "max_hr": 158,
-          "avg_cadence": 84.76538,
-          "zone": 1,
-          "training_load": 45.31738,
-          "decoupling": 13.437213
-        },
-        {
-          "type": "WORK",
-          "label": "1638s@262w86rpm",
-          "duration_secs": 1638,
-          "avg_power": 262,
-          "max_power": 314,
-          "avg_hr": 162,
-          "max_hr": 174,
-          "avg_cadence": 86.12524,
-          "zone": 4,
-          "training_load": 50.108337,
-          "decoupling": 3.2469127
-        },
-        {
-          "type": "WORK",
-          "label": "31s@208w72rpm",
-          "duration_secs": 31,
-          "avg_power": 208,
-          "max_power": 279,
-          "avg_hr": 168,
-          "max_hr": 174,
-          "avg_cadence": 72.09677,
-          "zone": 4,
-          "training_load": 0.953755,
-          "decoupling": 37.899433
         }
       ]
     },
