@@ -1,38 +1,10 @@
 {
-  "generated_at": "2026-08-13T23:36:22.626621",
+  "generated_at": "2026-08-14T01:36:56.903132",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i170745238",
-      "date": "2026-07-30",
-      "type": "Run",
-      "name": "Lunch Run",
-      "interval_summary": [
-        "1x 31m24s 125bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1884s@125bpm81rpm",
-          "duration_secs": 1884,
-          "avg_hr": 125,
-          "max_hr": 142,
-          "avg_cadence": 80.90059,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4,
-          "avg_hr": 141,
-          "max_hr": 141,
-          "avg_cadence": 83.25,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i171063670",
       "date": "2026-07-31",
