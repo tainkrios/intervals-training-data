@@ -1,57 +1,10 @@
 {
-  "generated_at": "2026-08-16T23:42:58.960977",
+  "generated_at": "2026-08-17T01:00:38.013718",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i171705460",
-      "date": "2026-08-02",
-      "type": "Run",
-      "name": "Lunch Run",
-      "interval_summary": [
-        "1x 1h24m 131bpm",
-        "1x 18s 129bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "5077s@224w83rpm",
-          "duration_secs": 5077,
-          "avg_power": 224,
-          "max_power": 287,
-          "avg_hr": 131,
-          "max_hr": 152,
-          "avg_cadence": 83.48354,
-          "zone": 1,
-          "training_load": 105.17193,
-          "decoupling": 0.9629921
-        },
-        {
-          "type": "WORK",
-          "label": "18s@233w75rpm",
-          "duration_secs": 18,
-          "avg_power": 233,
-          "max_power": 252,
-          "avg_hr": 129,
-          "max_hr": 150,
-          "avg_cadence": 74.94444,
-          "zone": 1,
-          "training_load": 0.51216996,
-          "decoupling": 25.09004
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_power": 200,
-          "max_power": 200,
-          "avg_hr": 144,
-          "max_hr": 144,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i172315864",
       "date": "2026-08-04",
