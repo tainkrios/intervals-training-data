@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T05:04:04.276492",
+  "generated_at": "2026-08-28T17:33:54.803834",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -546,6 +546,67 @@
           "avg_hr": 158,
           "max_hr": 158,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i180646824",
+      "date": "2026-08-28",
+      "type": "Run",
+      "name": "Morning Run",
+      "interval_summary": [
+        "1x 1h40m 132bpm",
+        "1x 40m34s 147bpm",
+        "1x 31s 125bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "6037s@219w84rpm",
+          "duration_secs": 6037,
+          "avg_power": 219,
+          "max_power": 335,
+          "avg_hr": 132,
+          "max_hr": 152,
+          "avg_cadence": 83.95977,
+          "zone": 1,
+          "training_load": 116.88872,
+          "decoupling": 7.8768067
+        },
+        {
+          "type": "WORK",
+          "label": "2434s@217w81rpm",
+          "duration_secs": 2434,
+          "avg_power": 217,
+          "max_power": 299,
+          "avg_hr": 147,
+          "max_hr": 166,
+          "avg_cadence": 81.425224,
+          "zone": 2,
+          "training_load": 56.981464,
+          "decoupling": 12.001497
+        },
+        {
+          "type": "WORK",
+          "label": "31s@136w55rpm",
+          "duration_secs": 31,
+          "avg_power": 136,
+          "max_power": 141,
+          "avg_hr": 125,
+          "max_hr": 132,
+          "avg_cadence": 55.03448,
+          "zone": 1,
+          "training_load": 0.18860562,
+          "decoupling": -4.6082664
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 126,
+          "max_power": 126,
+          "avg_hr": 120,
+          "max_hr": 120,
+          "zone": 1
         }
       ]
     }
