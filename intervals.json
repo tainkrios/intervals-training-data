@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T07:14:47.748400",
+  "generated_at": "2026-09-29T14:12:07.998365",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -615,6 +615,26 @@
           "zone": 1,
           "training_load": 0.97241193,
           "decoupling": -4.067998
+        }
+      ]
+    },
+    {
+      "activity_id": "i191497584",
+      "date": "2026-09-29",
+      "type": "VirtualRide",
+      "name": "Bike Z2 Aerobic Spin",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3015,
+          "avg_power": 113,
+          "max_power": 145,
+          "avg_hr": 121,
+          "max_hr": 140,
+          "zone": 1,
+          "training_load": 19.2832,
+          "decoupling": 8.465092
         }
       ]
     }
