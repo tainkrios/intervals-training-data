@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T09:18:26.129978",
+  "generated_at": "2026-10-08T16:44:32.909242",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -866,6 +866,26 @@
           "avg_hr": 101,
           "max_hr": 101,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i195004526",
+      "date": "2026-10-08",
+      "type": "VirtualRide",
+      "name": "Matrix Bike Z2 Cadence Flush",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2720,
+          "avg_power": 114,
+          "max_power": 184,
+          "avg_hr": 108,
+          "max_hr": 119,
+          "zone": 1,
+          "training_load": 18.174973,
+          "decoupling": 4.590193
         }
       ]
     }
