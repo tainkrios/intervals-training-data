@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:04:19.162977",
+  "generated_at": "2026-10-20T12:50:12.649232",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -941,6 +941,26 @@
           "zone": 1,
           "training_load": 0.4760991,
           "decoupling": 17.805597
+        }
+      ]
+    },
+    {
+      "activity_id": "i199465326",
+      "date": "2026-10-20",
+      "type": "VirtualRide",
+      "name": "Matrix Bike Z2 Aerobic Spin",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2420,
+          "avg_power": 115,
+          "max_power": 153,
+          "avg_hr": 111,
+          "max_hr": 125,
+          "zone": 1,
+          "training_load": 16.680555,
+          "decoupling": 5.484238
         }
       ]
     }
