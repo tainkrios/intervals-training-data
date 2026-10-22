@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T12:13:03.964116",
+  "generated_at": "2026-10-22T17:27:12.074359",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -984,6 +984,26 @@
           "zone": 1,
           "training_load": 0.128,
           "decoupling": 0.80559236
+        }
+      ]
+    },
+    {
+      "activity_id": "i200357373",
+      "date": "2026-10-22",
+      "type": "VirtualRide",
+      "name": "Matrix Bike Z2 Cadence Spin",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2431,
+          "avg_power": 115,
+          "max_power": 169,
+          "avg_hr": 106,
+          "max_hr": 122,
+          "zone": 1,
+          "training_load": 16.948511,
+          "decoupling": 4.38984
         }
       ]
     }
