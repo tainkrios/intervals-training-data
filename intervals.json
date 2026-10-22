@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T06:20:26.537710",
+  "generated_at": "2026-10-22T12:13:03.964116",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -964,6 +964,26 @@
           "avg_cadence": 84.0,
           "zone": 1,
           "training_load": 0.025154643
+        }
+      ]
+    },
+    {
+      "activity_id": "i200341528",
+      "date": "2026-10-22",
+      "type": "VirtualRide",
+      "name": "Lunch Virtual Ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 131,
+          "avg_power": 48,
+          "max_power": 54,
+          "avg_hr": 78,
+          "max_hr": 82,
+          "zone": 1,
+          "training_load": 0.128,
+          "decoupling": 0.80559236
         }
       ]
     }
