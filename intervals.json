@@ -1,60 +1,10 @@
 {
-  "generated_at": "2026-10-25T22:15:20.040482",
+  "generated_at": "2026-10-26T00:31:40.361265",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i196120369",
-      "date": "2026-10-11",
-      "type": "Run",
-      "name": "Afternoon Run",
-      "interval_summary": [
-        "1x 10m47s 118bpm",
-        "1x 1h13m 142bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "647s@230w87rpm",
-          "duration_secs": 647,
-          "avg_power": 230,
-          "max_power": 275,
-          "avg_hr": 118,
-          "max_hr": 139,
-          "avg_cadence": 86.65151,
-          "zone": 1,
-          "training_load": 14.664948,
-          "decoupling": 15.457851
-        },
-        {
-          "type": "WORK",
-          "label": "4385s@241w87rpm",
-          "duration_secs": 4385,
-          "avg_power": 241,
-          "max_power": 303,
-          "avg_hr": 142,
-          "max_hr": 158,
-          "avg_cadence": 86.59799,
-          "zone": 1,
-          "training_load": 100.67638,
-          "decoupling": 3.9288523
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 11,
-          "avg_power": 235,
-          "max_power": 241,
-          "avg_hr": 148,
-          "max_hr": 149,
-          "avg_cadence": 84.55556,
-          "zone": 2,
-          "training_load": 0.22639178,
-          "decoupling": 2.101491
-        }
-      ]
-    },
     {
       "activity_id": "i196820804",
       "date": "2026-10-13",
