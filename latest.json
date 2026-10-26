@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-26T12:10:05.807990",
+    "last_updated": "2026-10-26T18:46:42.431232",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -639,7 +639,7 @@
     "p_max": 231,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-26T12:10:05.806788",
+    "calculation_timestamp": "2026-10-26T18:46:42.430081",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -657,7 +657,7 @@
       "id": "i201800336",
       "date": "2026-10-26T09:13:29",
       "type": "WeightTraining",
-      "name": "Morning Weight Training",
+      "name": "Legs + Core",
       "duration_hours": 0.75,
       "distance_km": 0.0,
       "tss": 6,
