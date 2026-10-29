@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-29T13:54:33.895070",
+    "last_updated": "2026-10-29T19:23:15.802910",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -143,14 +143,14 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Build",
-      "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "phase": null,
+      "phase_week": 0,
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 6 green, 0 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -275,7 +275,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 236,
+      "steps": 10110,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -608,9 +608,11 @@
       ]
     },
     "phase_detection": {
-      "phase": "Build",
-      "confidence": "medium",
-      "reason_codes": [],
+      "phase": null,
+      "confidence": "low",
+      "reason_codes": [
+        "BUILD_BASE_AMBIGUOUS"
+      ],
       "basis": {
         "stream_1": {
           "ctl_slope": null,
@@ -619,10 +621,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.94,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 2.67,
+          "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 2,
+          "current_week_hard_days_total": 1,
           "race_proximity": null,
           "next_week_load": 0.53,
           "plan_coverage_current_week": 0.86,
@@ -632,12 +634,14 @@
         "stream_agreement": null
       },
       "previous_phase": null,
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 0,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
-    "phase_triggers": [],
+    "phase_detected": null,
+    "phase_triggers": [
+      "BUILD_BASE_AMBIGUOUS"
+    ],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -659,7 +663,7 @@
     "p_max": 230,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-29T13:54:33.893924",
+    "calculation_timestamp": "2026-10-29T19:23:15.801539",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -790,7 +794,7 @@
       "id": "i203122378",
       "date": "2026-10-29T11:38:23",
       "type": "WeightTraining",
-      "name": "Lunch Weight Training",
+      "name": "Upper Body + Core",
       "duration_hours": 0.76,
       "distance_km": 0.0,
       "tss": 7,
@@ -3062,7 +3066,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 236,
+      "steps": 10110,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3075,32 +3079,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 140727718,
-      "date": "2026-10-29",
-      "name": "Upper Body + Core",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "8 exercises \u00b7 26 sets\nLat Pulldown 4\u00d710 \u00b7 45 kg \u00b7 RPE 7\nIncline Dumbbell Bench Press 30\u00b0 4\u00d710 \u00b7 16 kg \u00b7 RPE 7\nSeated Cable Row 3\u00d712 \u00b7 40 kg \u00b7 RPE 7\nSeated Overhead Dumbbell Press 3\u00d712 \u00b7 12 kg \u00b7 RPE 7\nCable Biceps Curl 3\u00d712 \u00b7 20 kg \u00b7 RPE 7\nCable Triceps Pushdown 3\u00d712 \u00b7 20 kg \u00b7 RPE 7\nCable Pallof Press 3\u00d712 \u00b7 18 kg \u00b7 RPE 7\nSide Plank 3\u00d7 45 sec\n\nUpper Body + Core"
-    },
-    {
-      "id": 140727720,
-      "date": "2026-10-29",
-      "name": "Easy Run Z2 + Strides",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 53,
-      "duration_hours": 0.75,
-      "duration_formatted": "44m55s",
-      "workout_summary": "35m | 5\u00d729s / 1m30s rec",
-      "has_terrain": false,
-      "description": "- 35m 5:24-5:51/km Pace\n\nStrides 5x\n- 0.1km z4 pace\n- 90s z2 pace"
-    },
-    {
       "id": 142930184,
       "date": "2026-10-29",
       "name": "Work: 18:00 \u2013 02:00",
@@ -3112,6 +3090,32 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Work: 18:00 \u2013 02:00"
+    },
+    {
+      "id": 149637493,
+      "date": "2026-10-29",
+      "name": "Easy Run Z2 + Strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 41,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 35m 5:24-5:51/km Pace"
+    },
+    {
+      "id": 149637496,
+      "date": "2026-10-29",
+      "name": "Upper Body + Core",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "8 exercises \u00b7 26 sets\nLat Pulldown 4\u00d710 \u00b7 45 kg \u00b7 RPE 7\nIncline Dumbbell Bench Press 30\u00b0 4\u00d710 \u00b7 16 kg \u00b7 RPE 7\nSeated Cable Row 3\u00d712 \u00b7 40 kg \u00b7 RPE 7\nSeated Overhead Dumbbell Press 3\u00d712 \u00b7 12 kg \u00b7 RPE 7\nCable Biceps Curl 3\u00d712 \u00b7 20 kg \u00b7 RPE 7\nCable Triceps Pushdown 3\u00d712 \u00b7 20 kg \u00b7 RPE 7\nCable Pallof Press 3\u00d712 \u00b7 18 kg \u00b7 RPE 7\nSide Plank 3\u00d7 45 sec\n\nUpper Body + Core"
     },
     {
       "id": 138812695,
@@ -3171,12 +3175,12 @@
       "name": "Matrix Bike Z2 Aerobic Spin",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 35,
+      "planned_tss": 36,
       "duration_hours": 0.83,
       "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 50m 65% power=3s 90rpm"
+      "description": "- 50m 66-78% HR 90rpm"
     },
     {
       "id": 140727724,
@@ -3210,12 +3214,12 @@
       "name": "Matrix Bike Z2 Cadence Flush",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 32,
+      "planned_tss": 33,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 45m 65% power=3s 95rpm"
+      "description": "- 45m 66-78% HR 95rpm"
     },
     {
       "id": 138812702,
@@ -3327,12 +3331,12 @@
       "name": "Matrix Bike Z2 Aerobic Spin",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 35,
+      "planned_tss": 36,
       "duration_hours": 0.83,
       "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 50m 65% power=3s 90rpm"
+      "description_preview": "- 50m 66-78% HR 90rpm"
     },
     {
       "id": 138812722,
@@ -3379,12 +3383,12 @@
       "name": "Matrix Bike Z2 Cadence Flush",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 32,
+      "planned_tss": 33,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 45m 65% power=3s 95rpm"
+      "description_preview": "- 45m 66-78% HR 95rpm"
     },
     {
       "id": 138812726,
@@ -3418,12 +3422,12 @@
       "name": "Matrix Bike Z2 Aerobic Spin",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 35,
+      "planned_tss": 36,
       "duration_hours": 0.83,
       "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 50m 65% power=3s 90rpm"
+      "description_preview": "- 50m 66-78% HR 90rpm"
     },
     {
       "id": 138812729,
@@ -3470,12 +3474,12 @@
       "name": "Matrix Bike Z2 Cadence Flush",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 32,
+      "planned_tss": 33,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 45m 65% power=3s 95rpm"
+      "description_preview": "- 45m 66-78% HR 95rpm"
     },
     {
       "id": 138812733,
@@ -3509,12 +3513,12 @@
       "name": "Matrix Bike Z2 Aerobic Spin",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 35,
+      "planned_tss": 36,
       "duration_hours": 0.83,
       "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 50m 65% power=3s 90rpm"
+      "description_preview": "- 50m 66-78% HR 90rpm"
     },
     {
       "id": 138812736,
@@ -3545,11 +3549,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 18,
-    "success": 1,
-    "patternA": 1,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 17,
-    "bail_no_match": 17
+    "bail_no_match": 18
   },
   "weekly_summary": {
     "total_training_hours": 3.8,
