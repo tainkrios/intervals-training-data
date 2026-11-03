@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-03T05:58:08.028158",
+    "last_updated": "2026-11-03T13:52:18.698903",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -609,7 +609,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.86,
+          "planned_tss_delta": 2.29,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
@@ -651,7 +651,7 @@
     "p_max": 229,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-03T05:58:08.026942",
+    "calculation_timestamp": "2026-11-03T13:52:18.697708",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -842,7 +842,7 @@
       "id": "i203550217",
       "date": "2026-10-30T13:27:08",
       "type": "WeightTraining",
-      "name": "Lunch Weight Training",
+      "name": "Full Body + Stability",
       "duration_hours": 0.64,
       "distance_km": 0.0,
       "tss": 6,
@@ -3015,19 +3015,6 @@
       "description": "8 exercises \u00b7 26 sets\nLat Pulldown 4\u00d710 \u00b7 45 kg \u00b7 RPE 7\nIncline Dumbbell Bench Press 30\u00b0 4\u00d710 \u00b7 16 kg \u00b7 RPE 7\nSeated Cable Row 3\u00d712 \u00b7 40 kg \u00b7 RPE 7\nSeated Overhead Dumbbell Press 3\u00d712 \u00b7 12 kg \u00b7 RPE 7\nCable Biceps Curl 3\u00d712 \u00b7 20 kg \u00b7 RPE 7\nCable Triceps Pushdown 3\u00d712 \u00b7 20 kg \u00b7 RPE 7\nCable Pallof Press 3\u00d712 \u00b7 18 kg \u00b7 RPE 7\nSide Plank 3\u00d7 45 sec"
     },
     {
-      "id": 151016340,
-      "date": "2026-11-06",
-      "name": "Long Easy Run Z2",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 76,
-      "duration_hours": 1.08,
-      "duration_formatted": "1h5m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 65m 5:24-5:51/km Pace"
-    },
-    {
       "id": 142930186,
       "date": "2026-11-07",
       "name": "\u041e\u0442\u043f\u0443\u0441\u043a (07.11 \u2013 23.11): \u043d\u0430\u0447\u0430\u043b\u043e \u043e\u0442\u043f\u0443\u0441\u043a\u0430",
@@ -3052,6 +3039,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
+    },
+    {
+      "id": 151500238,
+      "date": "2026-11-07",
+      "name": "Long Easy Run Z2",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 106,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h29m51s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 16km 5:24-5:51/km Pace"
     },
     {
       "id": 141776527,
