@@ -1,30 +1,10 @@
 {
-  "generated_at": "2026-11-10T23:53:33.360044",
+  "generated_at": "2026-11-11T04:28:42.868218",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i202390720",
-      "date": "2026-10-27",
-      "type": "VirtualRide",
-      "name": "Matrix Bike Z2 Aerobic Spin",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3026,
-          "avg_power": 115,
-          "max_power": 140,
-          "avg_hr": 114,
-          "max_hr": 168,
-          "zone": 1,
-          "training_load": 19.86518,
-          "decoupling": 4.951793
-        }
-      ]
-    },
     {
       "activity_id": "i203152455",
       "date": "2026-10-29",
@@ -447,6 +427,119 @@
           "zone": 4,
           "training_load": 0.023891851,
           "decoupling": 0.0
+        }
+      ]
+    },
+    {
+      "activity_id": "i208503272",
+      "date": "2026-11-11",
+      "type": "Run",
+      "name": "Morning Run",
+      "interval_summary": [
+        "3x 5m30s 137bpm",
+        "3x 6m59s 131bpm",
+        "1x 22s 138bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "330s@254w85rpm",
+          "duration_secs": 323,
+          "avg_power": 250,
+          "max_power": 278,
+          "avg_hr": 127,
+          "max_hr": 142,
+          "avg_cadence": 85.44267,
+          "zone": 1,
+          "training_load": 9.193107,
+          "decoupling": 9.745999
+        },
+        {
+          "type": "WORK",
+          "label": "330s@254w85rpm",
+          "duration_secs": 337,
+          "avg_power": 267,
+          "max_power": 310,
+          "avg_hr": 143,
+          "max_hr": 148,
+          "avg_cadence": 83.63205,
+          "zone": 1,
+          "training_load": 10.850176,
+          "decoupling": 1.3231509
+        },
+        {
+          "type": "WORK",
+          "label": "330s@254w85rpm",
+          "duration_secs": 329,
+          "avg_power": 245,
+          "max_power": 277,
+          "avg_hr": 140,
+          "max_hr": 146,
+          "avg_cadence": 84.66566,
+          "zone": 1,
+          "training_load": 9.212738,
+          "decoupling": 6.4719796
+        },
+        {
+          "type": "WORK",
+          "label": "419s@228w83rpm",
+          "duration_secs": 458,
+          "avg_power": 234,
+          "max_power": 256,
+          "avg_hr": 134,
+          "max_hr": 141,
+          "avg_cadence": 84.22384,
+          "zone": 1,
+          "training_load": 8.800483,
+          "decoupling": 3.442863
+        },
+        {
+          "type": "WORK",
+          "label": "419s@228w83rpm",
+          "duration_secs": 385,
+          "avg_power": 225,
+          "max_power": 320,
+          "avg_hr": 131,
+          "max_hr": 143,
+          "avg_cadence": 82.55844,
+          "zone": 1,
+          "training_load": 9.183313,
+          "decoupling": -1.8459808
+        },
+        {
+          "type": "WORK",
+          "label": "419s@228w83rpm",
+          "duration_secs": 415,
+          "avg_power": 224,
+          "max_power": 271,
+          "avg_hr": 128,
+          "max_hr": 143,
+          "avg_cadence": 82.22034,
+          "zone": 1,
+          "training_load": 8.067522,
+          "decoupling": -7.254796
+        },
+        {
+          "type": "WORK",
+          "label": "22s@237w75rpm",
+          "duration_secs": 22,
+          "avg_power": 237,
+          "max_power": 258,
+          "avg_hr": 138,
+          "max_hr": 140,
+          "avg_cadence": 74.90909,
+          "zone": 1,
+          "training_load": 0.6665248,
+          "decoupling": 10.751526
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 176,
+          "max_power": 176,
+          "avg_hr": 129,
+          "max_hr": 129,
+          "zone": 1
         }
       ]
     }
