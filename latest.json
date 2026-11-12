@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-11T19:46:16.007911",
+    "last_updated": "2026-11-12T01:46:17.982034",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -116,20 +116,20 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "green",
-        "value": 32.0,
-        "baseline_7d": 30.0,
-        "delta_pct": 6.7
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 29.8,
+        "delta_pct": null
       },
       "rhr": {
-        "status": "green",
-        "value": 52,
-        "baseline_7d": 54.3,
-        "delta_bpm": -2.3
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 54.6,
+        "delta_bpm": null
       },
       "sleep": {
-        "status": "green",
-        "hours": 7.32,
+        "status": "unavailable",
+        "hours": null,
         "quality": null
       },
       "acwr": {
@@ -137,20 +137,20 @@
         "value": 1.23
       },
       "ri": {
-        "status": "green",
-        "value": 1.11,
-        "value_yesterday": 0.83
+        "status": "unavailable",
+        "value": null,
+        "value_yesterday": 1.13
       },
       "tsb": {
         "status": "green",
-        "value": -0.1
+        "value": 1.9
       }
     },
     "signal_summary": {
-      "green": 6,
+      "green": 2,
       "amber": 0,
       "red": 0,
-      "unavailable": 0
+      "unavailable": 4
     },
     "phase_context": {
       "phase": "Build",
@@ -160,13 +160,13 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 6 green, 0 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-11-08",
-    "age_days": 3,
+    "age_days": 4,
     "total_months": 29,
     "history_confidence": "high"
   },
@@ -204,10 +204,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 18.46,
-      "atl": 18.6,
-      "tsb": -0.14,
-      "ramp_rate": 0.28,
+      "ctl": 18.03,
+      "atl": 16.13,
+      "tsb": 1.9,
+      "ramp_rate": 0.27,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -252,10 +252,10 @@
         }
       },
       "resting_hr": 52,
-      "hrv": 32.0,
+      "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": 7.32,
-      "sleep_formatted": "7h19m",
+      "sleep_hours": null,
+      "sleep_formatted": null,
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -273,7 +273,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 24398,
+      "steps": null,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -285,14 +285,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.11,
-    "recovery_index_yesterday": 0.83,
-    "hrv_baseline_7d": 30.0,
-    "rhr_baseline_7d": 54.3,
-    "hrv_baseline_28d": 28.5,
-    "rhr_baseline_28d": 54.9,
-    "latest_hrv": 32.0,
-    "latest_rhr": 52,
+    "recovery_index": null,
+    "recovery_index_yesterday": 1.13,
+    "hrv_baseline_7d": 29.8,
+    "rhr_baseline_7d": 54.6,
+    "hrv_baseline_28d": 28.4,
+    "rhr_baseline_28d": 54.8,
+    "latest_hrv": null,
+    "latest_rhr": null,
     "acwr": 1.23,
     "acwr_interpretation": "optimal",
     "monotony": 0.48,
@@ -304,7 +304,7 @@
     "multi_sport_detected": true,
     "strain": 70.0,
     "stress_tolerance": 1.5,
-    "load_recovery_ratio": 1.3,
+    "load_recovery_ratio": null,
     "tss_7d_total": 146.0,
     "tss_28d_total": 476.0,
     "zone_distribution_7d": {
@@ -410,12 +410,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-15",
-          "end": "2026-11-11"
+          "start": "2026-10-16",
+          "end": "2026-11-12"
         },
         "previous_window": {
-          "start": "2026-09-17",
-          "end": "2026-10-14"
+          "start": "2026-09-18",
+          "end": "2026-10-15"
         },
         "anchors": {
           "5s": {
@@ -450,12 +450,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-15",
-          "end": "2026-11-11"
+          "start": "2026-10-16",
+          "end": "2026-11-12"
         },
         "previous_window": {
-          "start": "2026-09-17",
-          "end": "2026-10-14"
+          "start": "2026-09-18",
+          "end": "2026-10-15"
         },
         "anchors": {
           "60s": {
@@ -485,8 +485,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-10-01",
-          "end": "2026-11-11"
+          "start": "2026-10-02",
+          "end": "2026-11-12"
         },
         "weight_kg": 80.5,
         "weight_source": "athlete_profile",
@@ -495,8 +495,8 @@
             "300s": {
               "actual_watts": 137,
               "actual_wpkg": 1.7,
-              "actual_hr": 130,
-              "pct_lthr": 76.0,
+              "actual_hr": 124,
+              "pct_lthr": 72.5,
               "source": "observed_outdoor",
               "coggan_watts": 265,
               "coggan_wpkg": 3.29,
@@ -507,8 +507,8 @@
             "600s": {
               "actual_watts": 137,
               "actual_wpkg": 1.7,
-              "actual_hr": 129,
-              "pct_lthr": 75.4,
+              "actual_hr": 123,
+              "pct_lthr": 71.9,
               "source": "observed_outdoor",
               "coggan_watts": 242,
               "coggan_wpkg": 3.01,
@@ -519,8 +519,8 @@
             "1200s": {
               "actual_watts": 136,
               "actual_wpkg": 1.69,
-              "actual_hr": 127,
-              "pct_lthr": 74.3,
+              "actual_hr": 122,
+              "pct_lthr": 71.3,
               "source": "observed_outdoor",
               "coggan_watts": 232,
               "coggan_wpkg": 2.88,
@@ -531,8 +531,8 @@
             "1800s": {
               "actual_watts": 135,
               "actual_wpkg": 1.68,
-              "actual_hr": 124,
-              "pct_lthr": 72.5,
+              "actual_hr": 120,
+              "pct_lthr": 70.2,
               "source": "observed_outdoor",
               "coggan_watts": 225,
               "coggan_wpkg": 2.8,
@@ -580,19 +580,18 @@
           "coverage_ratio": 0.57,
           "ftp_used": 250,
           "w_prime_used": 11392,
-          "ftp_staleness_days": 141,
+          "ftp_staleness_days": 142,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.33,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 2,
       "completed_days": 3,
       "matched_days": 1,
       "planned_dates": [
-        "2026-11-05",
         "2026-11-07",
         "2026-11-10"
       ],
@@ -614,7 +613,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.48,
+          "planned_tss_delta": 0.6,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 1,
@@ -654,13 +653,13 @@
     "p_max": 228,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-11T19:46:16.007015",
+    "calculation_timestamp": "2026-11-12T01:46:17.981424",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 5,
+      "rhr_data_points": 5,
       "activities_7d": 3,
       "activities_28d": 19,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2289,48 +2288,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-11-05",
-      "weight_kg": null,
-      "display": {
-        "weight": null
-      },
-      "resting_hr": 53,
-      "hrv_rmssd": 31.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 8.52,
-      "sleep_formatted": "8h31m",
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": 53.0,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 9375,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
       "date": "2026-11-06",
       "weight_kg": null,
       "display": {
@@ -2573,6 +2530,48 @@
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": 24398,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
+    },
+    {
+      "date": "2026-11-12",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3012,23 +3011,49 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "- 50m 66-78% HR 90rpm"
+    },
+    {
+      "id": 138812750,
+      "date": "2026-12-24",
+      "name": "Upper Body + Core",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "8 exercises \u00b7 26 sets\nLat Pulldown 4\u00d710 \u00b7 45 kg \u00b7 RPE 7\nIncline Dumbbell Bench Press 30\u00b0 4\u00d710 \u00b7 16 kg \u00b7 RPE 7"
+    },
+    {
+      "id": 138812751,
+      "date": "2026-12-24",
+      "name": "Easy Run Z2 + Strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 41,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 35m 5:24-5:51/km Pace"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 19,
+    "attempted": 20,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 14,
-    "bail_no_match": 19
+    "bail_no_workout_doc": 15,
+    "bail_no_match": 20
   },
   "weekly_summary": {
     "total_training_hours": 2.86,
     "total_training_formatted": "2h51m",
     "total_tss": 146,
     "activities_count": 3,
-    "avg_hrv": 30.0,
-    "avg_resting_hr": 54.3
+    "avg_hrv": 29.8,
+    "avg_resting_hr": 54.6
   },
   "race_calendar": {
     "next_race": null,
