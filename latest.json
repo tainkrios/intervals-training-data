@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-25T12:01:44.610546",
+    "last_updated": "2026-11-25T21:53:13.420206",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -263,7 +263,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4378,
+      "steps": 4463,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -522,7 +522,7 @@
     "p_max": 225,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-25T12:01:44.609373",
+    "calculation_timestamp": "2026-11-25T21:53:13.419319",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2245,7 +2245,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4378,
+      "steps": 4463,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2380,7 +2380,7 @@
       "name": "Matrix Bike Z2 Cadence Flush",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 34,
+      "planned_tss": 32,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
@@ -2414,8 +2414,8 @@
       "description_preview": "- 65m 5:24-5:51/km Pace"
     },
     {
-      "id": 138812734,
-      "date": "2026-12-08",
+      "id": 160507560,
+      "date": "2026-12-07",
       "name": "Legs + Core",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
@@ -2440,8 +2440,8 @@
       "description_preview": "- 50m 66-78% HR 90rpm"
     },
     {
-      "id": 138812736,
-      "date": "2026-12-10",
+      "id": 160507562,
+      "date": "2026-12-09",
       "name": "Upper Body + Core",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
@@ -2453,8 +2453,8 @@
       "description_preview": "8 exercises \u00b7 26 sets\nLat Pulldown 4\u00d710 \u00b7 45 kg \u00b7 RPE 7\nIncline Dumbbell Bench Press 30\u00b0 4\u00d710 \u00b7 16 kg \u00b7 RPE 7"
     },
     {
-      "id": 138812737,
-      "date": "2026-12-10",
+      "id": 160507564,
+      "date": "2026-12-09",
       "name": "Easy Run Z2 + Strides",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -2464,6 +2464,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "- 35m 5:24-5:51/km Pace"
+    },
+    {
+      "id": 160507565,
+      "date": "2026-12-10",
+      "name": "Matrix Bike Z2 Cadence Flush",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 45m 66-78% HR 95rpm"
     },
     {
       "id": 138812738,
@@ -2479,19 +2492,6 @@
       "description_preview": "7 exercises \u00b7 22 sets\nDumbbell Bulgarian Split Squat 3\u00d710 \u00b7 10 kg \u00b7 RPE 7\nBarbell Hip Thrust 4\u00d712 \u00b7 50 kg \u00b7 RPE 8"
     },
     {
-      "id": 138812739,
-      "date": "2026-12-11",
-      "name": "Matrix Bike Z2 Cadence Flush",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 32,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 45m 66-78% HR 95rpm"
-    },
-    {
       "id": 138812740,
       "date": "2026-12-13",
       "name": "Long Easy Run Z2",
@@ -2505,8 +2505,8 @@
       "description_preview": "- 65m 5:24-5:51/km Pace"
     },
     {
-      "id": 138812741,
-      "date": "2026-12-15",
+      "id": 160507568,
+      "date": "2026-12-14",
       "name": "Legs + Core",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
@@ -2531,8 +2531,8 @@
       "description_preview": "- 50m 66-78% HR 90rpm"
     },
     {
-      "id": 138812743,
-      "date": "2026-12-17",
+      "id": 160507572,
+      "date": "2026-12-16",
       "name": "Upper Body + Core",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
@@ -2544,8 +2544,8 @@
       "description_preview": "8 exercises \u00b7 26 sets\nLat Pulldown 4\u00d710 \u00b7 45 kg \u00b7 RPE 7\nIncline Dumbbell Bench Press 30\u00b0 4\u00d710 \u00b7 16 kg \u00b7 RPE 7"
     },
     {
-      "id": 138812744,
-      "date": "2026-12-17",
+      "id": 160507574,
+      "date": "2026-12-16",
       "name": "Easy Run Z2 + Strides",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -2555,6 +2555,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "- 35m 5:24-5:51/km Pace"
+    },
+    {
+      "id": 160507575,
+      "date": "2026-12-17",
+      "name": "Matrix Bike Z2 Cadence Flush",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 45m 66-78% HR 95rpm"
     },
     {
       "id": 138812745,
@@ -2570,19 +2583,6 @@
       "description_preview": "7 exercises \u00b7 22 sets\nDumbbell Bulgarian Split Squat 3\u00d710 \u00b7 10 kg \u00b7 RPE 7\nBarbell Hip Thrust 4\u00d712 \u00b7 50 kg \u00b7 RPE 8"
     },
     {
-      "id": 138812746,
-      "date": "2026-12-18",
-      "name": "Matrix Bike Z2 Cadence Flush",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 32,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 45m 66-78% HR 95rpm"
-    },
-    {
       "id": 138812747,
       "date": "2026-12-20",
       "name": "Long Easy Run Z2",
@@ -2596,8 +2596,8 @@
       "description_preview": "- 65m 5:24-5:51/km Pace"
     },
     {
-      "id": 138812748,
-      "date": "2026-12-22",
+      "id": 160507579,
+      "date": "2026-12-21",
       "name": "Legs + Core",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
@@ -2622,8 +2622,8 @@
       "description_preview": "- 50m 66-78% HR 90rpm"
     },
     {
-      "id": 138812750,
-      "date": "2026-12-24",
+      "id": 160507582,
+      "date": "2026-12-23",
       "name": "Upper Body + Core",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
@@ -2635,8 +2635,8 @@
       "description_preview": "8 exercises \u00b7 26 sets\nLat Pulldown 4\u00d710 \u00b7 45 kg \u00b7 RPE 7\nIncline Dumbbell Bench Press 30\u00b0 4\u00d710 \u00b7 16 kg \u00b7 RPE 7"
     },
     {
-      "id": 138812751,
-      "date": "2026-12-24",
+      "id": 160507583,
+      "date": "2026-12-23",
       "name": "Easy Run Z2 + Strides",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -2646,6 +2646,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "- 35m 5:24-5:51/km Pace"
+    },
+    {
+      "id": 160507584,
+      "date": "2026-12-24",
+      "name": "Matrix Bike Z2 Cadence Flush",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 45m 66-78% HR 95rpm"
     },
     {
       "id": 138812752,
@@ -2659,19 +2672,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "7 exercises \u00b7 22 sets\nDumbbell Bulgarian Split Squat 3\u00d710 \u00b7 10 kg \u00b7 RPE 7\nBarbell Hip Thrust 4\u00d712 \u00b7 50 kg \u00b7 RPE 8"
-    },
-    {
-      "id": 138812753,
-      "date": "2026-12-25",
-      "name": "Matrix Bike Z2 Cadence Flush",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 32,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 45m 66-78% HR 95rpm"
     },
     {
       "id": 138812754,
